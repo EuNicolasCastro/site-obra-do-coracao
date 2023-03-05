@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* Declarando a paleta */
+
+:root{
+    --corfundo: white;
+}
+
+#container-fundo{
+    background-color: var(--corfundo)
+}
