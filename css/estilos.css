@@ -3,9 +3,21 @@
 /* Declarando a paleta */
 
 :root{
-    --corfundo: white;
+    --corfundo: rgb(255, 172, 172);
+}
+*{
+    margin: 0px;
+}
+#container-fundo{
+    margin: auto;
+    width: 800px;
+    background-color: var(--corfundo);
+    border: 1px solid;
 }
 
-#container-fundo{
-    background-color: var(--corfundo)
+/* CSS DO HEADER */
+
+.cabecalho{
+    height: 150px;
+    background-color: blue;
 }
