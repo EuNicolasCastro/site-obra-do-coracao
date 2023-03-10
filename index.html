@@ -33,11 +33,16 @@
     </main>
     <footer id="rodape-principal">
         <section id="rodape-contato">
-            <form action="#"> Fale conosco</form>
+            <form action="form-contato.html" method="post"> Fale conosco
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </form>
             <group>
                 <section>
                     Inscreva-se para recerber nossas palestras:
-                    <form action="#">
+                    <form action="form.html" method="post">
                         <input type="email" name="email" id="email" placeholder="exemplo@mail.com">
                         <button type="submit">Inscrever</button>
                     </form>
