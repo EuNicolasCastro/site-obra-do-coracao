@@ -25,10 +25,15 @@
     background-color: rgba(0, 0, 255, 0.157);
 }
 
-#menu-princpal h1{
+#menu-principal > h1{
     display: none;
 }
 
+/* CSS DA SESSAO DE VIDEOS*/
+
+#secao-videos > h1{
+    display: none;
+}
 /* CSS DO RODAPE*/
 
 #rodape-principal{
